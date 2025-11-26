@@ -1,0 +1,6 @@
+PS C:\Users\Fer\Downloads\DirectAulaFork> @"
+__pycache__/
+*.pyc
+*.db
+*.sqlite3
+"@ | Out-File -FilePath .gitignore -Encoding utf8
